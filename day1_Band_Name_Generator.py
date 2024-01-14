@@ -2,27 +2,26 @@
 
 ''' Print statement '''
 print("Hello world!")
-
 print("print('Hello world!')")
 print('print("Hello world!")')
-
 print("Hello world!\nHello world!")
 print("Hello world!\nHello world!\nHello world!")
-
 print("Hello" + " " + "Angela")
+
 
 ''' Input statements '''
 input("What is your name?")
-
 # input() will get user input in console
 # Then print() will print the word "Hello" and the user input
 print("Hello " + input("What is your name?") + "!")
+
 
 ''' Variables '''
 print(len(input("What is your name?")))
 name = input("What is your name?")
 length = len(name)
 print(length)
+
 
 ''' Band Name Generator '''
 print("Welcome to the Band Name Generator.")
