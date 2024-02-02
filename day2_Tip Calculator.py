@@ -1,6 +1,6 @@
 # Day 2 - Beginner - Understanding Data Types and How to Manipulate Strings
 
-'''Primitive Data Types'''
+'''THEORY'''
 '''
 Strings
 - Surrounded by quotes

@@ -1,5 +1,34 @@
 # Day 3 - Beginner - Control Flow and Logical Operators
 
+'''THEORY'''
+print("Welcome to the rollercoaster!")
+height = int(input("What is your height in cm?"))
+
+if height >= 120:
+    print("You can ride the rollercoaster!")
+    age = int(input("What is your age?"))
+    if age < 12:
+        bill = 5
+        print("Child tickets are $5.")
+    elif age <= 18:
+        bill = 7
+        print("Youth tickers are $7.")
+    elif age >= 45 and age <= 55:
+        print("Everything is going to be ok. Have a free ride on us!")
+    else:
+        bill = 12
+        print("Adult tickets are $12.")
+
+    wants_photo = input("Dp you want a photo taken? Y or N.")
+    if wants_photo == "Y":
+        bill += 3
+
+    print(f"Your final bill is {bill}")
+
+else:
+    print("Sorry, you have to grow taller before you can ride.")
+
+
 '''LESSON 8 DAY 3 - ODD OR EVEN'''
 # Which number do you want to check?
 number = int(input())
@@ -76,12 +105,36 @@ if extra_cheese == "Y":
 print(f"Your final bill is: ${bill}.")
 
 '''LESSON 12 DAY 3 - LOVE CALCULATOR'''
+print("The Love Calculator is calculating your score...")
+name1 = input() # What is your name?
+name2 = input() # What is their name?
+# 🚨 Don't change the code above 👆
+# Write your code below this line 👇
+combined_name = name1 + name2
+digit_1 = 0
+digit_1 += combined_name.lower().count("t")
+digit_1 += combined_name.lower().count("r")
+digit_1 += combined_name.lower().count("u")
+digit_1 += combined_name.lower().count("e")
+digit_2 = 0
+digit_2 += combined_name.lower().count("l")
+digit_2 += combined_name.lower().count("o")
+digit_2 += combined_name.lower().count("v")
+digit_2 += combined_name.lower().count("e")
 
+score = int(str(digit_1) + str(digit_2))
+if score < 10 or score > 90:
+  print(f"Your score is {score}, you go together like coke and mentos.")
+elif score > 40 and score < 50:
+  print(f"Your score is {score}, you are alright together.")
+else:
+  print(f"Your score is {score}.")
 
 
 
 
 '''Treasure Island'''
+# https://ascii.co.uk/art website with all kind of figure like the chest below
 print('''
 *******************************************************************************
           |                   |                  |                     |
