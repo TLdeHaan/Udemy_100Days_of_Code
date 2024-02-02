@@ -40,6 +40,7 @@ if number % 2 == 0:
 else:
   print("This is an odd number.")
 
+
 '''LESSON 9 DAY 3 - BMI 2.0'''
 # Enter your height in meters e.g., 1.55
 height = float(input())
@@ -60,6 +61,7 @@ elif bmi < 35:
 else:
   print(f"Your BMI is {bmi}, you are clinically obese.")
 
+
 '''LESSON 10 DAY 3 - LEAP YEAR'''
 # Which year do you want to check?
 year = int(input())
@@ -76,6 +78,7 @@ if year % 4 == 0:
     print("Leap year")
 else:
   print("Not leap year")
+
 
 '''LESSON 11 DAY 3 - PIZZA ORDER PRACTICE'''
 print("Thank you for choosing Python Pizza Deliveries!")
@@ -104,6 +107,7 @@ if extra_cheese == "Y":
 
 print(f"Your final bill is: ${bill}.")
 
+
 '''LESSON 12 DAY 3 - LOVE CALCULATOR'''
 print("The Love Calculator is calculating your score...")
 name1 = input() # What is your name?
@@ -129,8 +133,6 @@ elif score > 40 and score < 50:
   print(f"Your score is {score}, you are alright together.")
 else:
   print(f"Your score is {score}.")
-
-
 
 
 '''Treasure Island'''

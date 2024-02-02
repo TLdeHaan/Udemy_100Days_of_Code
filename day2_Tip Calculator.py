@@ -38,6 +38,7 @@ result = 4 / 2
 result /= 2
 print(result)
 
+
 '''LESSON 5 DAY 2 - DATA TYPES'''
 two_digit_number = input()
 # 🚨 Don't change the code above 👆
@@ -47,6 +48,7 @@ first_digit = int(two_digit_number[0])
 second_digit = int(two_digit_number[1])
 total = first_digit + second_digit
 print(total)
+
 
 '''LESSON 6 DAY 2 - BMI CALCULATOR'''
 # 1st input: enter height in meters e.g: 1.65
@@ -59,6 +61,7 @@ weight = input()
 BMI = int((float(weight) / float(height) ** 2))
 print(BMI)
 
+
 '''LESSON 7 DAY 2 - LIFE IN WEEKS'''
 age = input()
 # 🚨 Don't change the code above 👆
@@ -66,6 +69,7 @@ age = input()
 years_left = 90 - int(age)
 weeks_left = 52 * years_left
 print("You have " + str(weeks_left) + " weeks left.")
+
 
 '''Tip Calculator'''
 print("Welcome to the tip calculator!")

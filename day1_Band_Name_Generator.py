@@ -18,10 +18,12 @@ name = input("What is your name?")
 length = len(name)
 print(length)
 
+
 '''LESSON 1 DAY 1 - PRINTING'''
 print("Day 1 - Python Print Function")
 print("The function is declared like this:")
 print("print('what to print')")
+
 
 '''LESSON 2 DAY 1 - DEBUGGING PRACTICE'''
 # Fix the code below 👇
@@ -30,12 +32,14 @@ print("String Concatenation is done with the \"+\" sign.")
 print('e.g. print("Hello " + "world")')
 print("New lines can be created with a backslash and n.")
 
+
 '''LESSON 3 DAY 1 - INPUT FUNCTION'''
 # Provide any name in the input pane below.
 # That value can be accessed using the input() function.
 # Don't put anything inside the input() function!
 name = input()
 print(len(name))
+
 
 '''LESSON 4 DAY 1 - VARIABLES'''
 # There are two variables, a and b from input
@@ -50,6 +54,7 @@ b = c
 # 🚨 Don't change the code below 👇
 print("a: " + a)
 print("b: " + b)
+
 
 ''' Band Name Generator '''
 print("Welcome to the Band Name Generator.")
