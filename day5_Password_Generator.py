@@ -1,4 +1,4 @@
-# Day 4 - Beginner - Randomisation and Python Lists
+# Day 5 - Beginner - Randomisation and Python Lists
 '''LIBRARIES AND MODULES'''
 import random
 
