@@ -1,4 +1,4 @@
-# Day 6 - Beginner - Randomisation and Python Lists
+# Day 6 - Beginner - Python functions & Karel
 '''LIBRARIES AND MODULES'''
 import random
 
